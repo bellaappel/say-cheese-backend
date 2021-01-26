@@ -1,0 +1,2 @@
+class Headshot < ApplicationRecord
+end
