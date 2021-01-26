@@ -11,7 +11,7 @@ class HeadshotsController < ApplicationController
     def create
         @headshot = current_user.headshot.build(headshot_params)
         if @headshot.save
-            render json: @headshot, status: :created, location: @photo
+            render json: @headshot, status: :created, location: @headshot
         else
             render json: @headshot.errors, status: :unprocessable_entity
         end
