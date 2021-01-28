@@ -7,3 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create(name: 'Bella Appel', username: 'bellaappel', password: 'acting123')
+
+Headshot.create(image_src: "https://i.postimg.cc/zX8NQfVZ/BACapture-One-Catalog0091.jpg", caption:"french new-wave", user_id: "1" )
