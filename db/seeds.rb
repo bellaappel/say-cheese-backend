@@ -9,3 +9,4 @@
 User.create(name: 'Bella Appel', username: 'bellaappel', password: 'acting123')
 
 Headshot.create(image_src: "https://i.postimg.cc/zX8NQfVZ/BACapture-One-Catalog0091.jpg", caption:"french new-wave", user_id: "1" )
+Headshot.create(image_src:"https://i.postimg.cc/9fMBMrP9/2-CC9193-E-3420-41-F5-9-DFA-C5-EE32-E1-C2-D6.jpg", caption: "serious zoe" )
